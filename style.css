@@ -20,7 +20,7 @@ a {
     font-weight: 900;
     font-size: 50px;
     -webkit-text-stroke: 3px white;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1.5px;
     color: transparent;
 }
 
