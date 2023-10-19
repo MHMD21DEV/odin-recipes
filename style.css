@@ -27,6 +27,9 @@ color: rgb(214, 135, 135);
     text-align: 
     center; color: white; 
     font-size: large;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
 }
 
 .copy:hover {
