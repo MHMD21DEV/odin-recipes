@@ -1,6 +1,6 @@
 body {
     background-color: #1f242d;
-    background-image: url(https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(https://images.pexels.com/photos/1743165/pexels-photo-1743165.jpeg?auto=compress&cs=tinysrgb&w=1600);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -26,7 +26,7 @@ h1 {
 }
 
 h1:hover, h1:active {
-color: rgb(214, 135, 135);
+color: rgb(90, 195, 255);
 }
 
 .copy {
@@ -41,7 +41,7 @@ color: rgb(214, 135, 135);
     padding: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 400px;
+    margin-top: 300px;
     color: white;
     font-size: large;
     position: sticky;
@@ -52,7 +52,7 @@ color: rgb(214, 135, 135);
 }
 
 .copy:hover {
-    color: rgb(214, 135, 135);
+    color: rgb(90, 195, 255);
 }
 
 a {
@@ -65,7 +65,7 @@ a {
 }
 
 a:visited {
-    -webkit-text-stroke: 3px rgb(214, 135, 135);
+    -webkit-text-stroke: 3px rgb(90, 195, 255);
 }
 
 a:hover, a:active {
