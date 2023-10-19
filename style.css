@@ -9,6 +9,14 @@ h1 {
     -webkit-text-stroke: 5px whitesmoke;
     -webkit-text-stroke-width: 2px;
     color: transparent;
+    border: 5px solid white;
+    padding-bottom: 0.5cm;
+    padding-right: 0.5cm;
+    padding-left: 0.5cm;
+    padding: auto;
+    margin: auto;
+    max-width: fit-content;
+    max-height: fit-content;
 }
 
 h1:hover, h1:active {
