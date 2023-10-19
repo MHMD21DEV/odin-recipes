@@ -23,6 +23,16 @@ h1:hover, h1:active {
 color: rgb(214, 135, 135);
 }
 
+.copy { margin: auto; 
+    text-align: 
+    center; color: white; 
+    font-size: large;
+}
+
+.copy:hover {
+    color: rgb(214, 135, 135);
+}
+
 a {
     font-family: "Sansita", Calibri, sans-serif;
     font-weight: 900;
