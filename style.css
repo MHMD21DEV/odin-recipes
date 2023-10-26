@@ -1,6 +1,6 @@
 body {
     background-color: #1f242d;
-    background-image: url(https://images.pexels.com/photos/1743165/pexels-photo-1743165.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-image: url(https://img.freepik.com/free-photo/adorable-looking-kitten-with-sunglasses_23-2150886412.jpg?t=st=1698336039~exp=1698339639~hmac=29076b0811a6f4a629d418ffb64152ea2ddeda320b817a936e99ee6d1d63d8ca&w=1380);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -26,7 +26,7 @@ h1 {
 }
 
 h1:hover, h1:active {
-color: rgb(90, 195, 255);
+color: rgb(0, 255, 255);
 }
 
 .copy {
@@ -52,7 +52,7 @@ color: rgb(90, 195, 255);
 }
 
 .copy:hover {
-    color: rgb(90, 195, 255);
+    color: rgb(0, 255, 255);
 }
 
 a {
@@ -65,7 +65,7 @@ a {
 }
 
 a:visited {
-    -webkit-text-stroke: 3px rgb(90, 195, 255);
+    -webkit-text-stroke: 3px rgb(0, 255, 255);
 }
 
 a:hover, a:active {
