@@ -1,4 +1,12 @@
-body {
+*{
+    font-family: 'Sansita', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
     background-color: #1f242d;
     background-image: url(./images/adorable-looking-kitten-with-sunglasses.jpg);
     background-repeat: no-repeat;
@@ -7,12 +15,17 @@ body {
     background-size: cover;
 }
 
+section {
+    padding: 100px 200px;
+    box-sizing: border-box;
+}
+
 h1 {
     font-size: 100px;
-    font-family: "Sansita", Calibri, Tahoma, sans-serif;
+    font-family: 'Sansita', sans-serif;
     text-align: center;
     -webkit-text-stroke: 5px whitesmoke;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 3px;
     color: transparent;
     border: 5px dotted white;
     border-radius: 20px;
@@ -23,14 +36,16 @@ h1 {
     margin: auto;
     max-width: fit-content;
     max-height: fit-content;
+    transition: 0.5s ease;
 }
 
 h1:hover, h1:active {
-color: rgb(0, 255, 255);
+    color: #6fb8b8;
+    transform: scale(1.1);
 }
 
 .copy {
-    font-family: "Sansita", Calibri, Tahoma, sans-serif;
+    font-family: 'Sansita', sans-serif;
     text-align: center;
     border: 5px dotted white;
     border-radius: 50px;
@@ -41,7 +56,7 @@ color: rgb(0, 255, 255);
     padding: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 300px;
+    margin-top: 250px;
     color: white;
     font-size: large;
     position: sticky;
@@ -49,27 +64,32 @@ color: rgb(0, 255, 255);
     width: 100%;
     max-width: fit-content;
     max-height: fit-content;
+    transition: 0.5s ease;
 }
 
 .copy:hover {
-    color: rgb(0, 255, 255);
+    background-color: #6fb8b8;
+    transform: scale(1.1);
 }
 
 a {
-    font-family: "Sansita", Calibri, sans-serif;
+    font-family: 'Sansita', sans-serif;
     font-weight: 900;
     font-size: 50px;
     -webkit-text-stroke: 3px white;
-    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-width: 1.8px;
     color: transparent;
+    text-decoration: none;
+    transition: 0.7s ease;
 }
 
 a:visited {
-    -webkit-text-stroke: 3px rgb(0, 255, 255);
+    -webkit-text-stroke: 3px #6fb8b8;
 }
 
 a:hover, a:active {
-    color: whitesmoke;
+    color: #ffffff;
+    transform: scale(1.1);
 }
 
 .lasagna {
@@ -80,4 +100,13 @@ a:hover, a:active {
 }
 .miso-soup {
     color: white;
+}
+
+@media (max-width:1023px) {
+    section {
+        padding: 12px 20px;
+    }
+    h1 {
+        font-size: 80px;
+    }
 }

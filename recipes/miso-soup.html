@@ -10,6 +10,15 @@
     <title>Miso Soup</title>
 
     <style>
+
+        *{
+    font-family: 'Sansita', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
         a {
             color: whitesmoke;
         }
@@ -19,11 +28,12 @@
         }
         
         a:hover, a:active {
-            color: aqua;
+            color: #00ffff;
         }
     
         .copy {
-            margin: auto; 
+            margin: auto;
+            margin-top: 30px; 
             text-align: center; 
             color: white; 
             font-size: large;
@@ -33,7 +43,8 @@
         }
 
         .copy:hover {
-    color: rgb(0, 255, 255);
+    color: #00ffff;
+    transform: scale(1.1);
 }
 
         body {
@@ -41,15 +52,21 @@
 }
 
 img {
-    margin: auto;
+    margin: 0 auto;
     width: 350px;
     height: fit-content;
 }
 
 html {
     color: whitesmoke;
-    font-size: large;
+    padding: 10px 200px;
 }
+
+@media (max-width:1023px) {
+    html {padding: 20px 20px;
+    }
+}
+
     </style>
 
 </head>
