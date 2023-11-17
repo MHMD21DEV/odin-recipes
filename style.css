@@ -92,6 +92,10 @@ a:hover, a:active {
     transform: scale(1.1);
 }
 
+li {
+    list-style: none;
+}
+
 .lasagna {
     color: white;
 }
